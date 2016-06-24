@@ -18,7 +18,6 @@ $(document).ready(function(){
 
   $('.game').on('click', '#guessButton', function(){
     
-    alert(correctAnswer);
     var guess = $('#userGuess').val();
     var guessVal = parseInt(guess);
  
